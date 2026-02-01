@@ -84,14 +84,13 @@
 
 <div align="center">
   <h3>🖥️ 主界面 (Main UI)</h3>
-  <img src="./img_1.png" width="100%" alt="Main Interface" />
+  <img src="./assets/img_1.png" width="100%" alt="Main Interface" />
   
   <br><br>
   
   <h3>⚙️ 参数配置 (Settings)</h3>
-  <img src="./img_3.png" width="100%" alt="Settings Interface" />
+  <img src="./assets/img_3.png" width="100%" alt="Settings Interface" />
 </div>
-
 
 ---
 
