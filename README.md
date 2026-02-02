@@ -37,7 +37,7 @@
 
 #### 2. 时域动能收敛检测 (Temporal Kinetic Convergence Detection)
 为了精准捕获 PPT 的“稳态”，算法计算连续帧之间的 **均方误差 (MSE)** 及其梯度变化。
-我将视频流视为一个动态的时间序列，只有当帧间差异的 L2 范数收敛至一个极小的 $\epsilon$ 邻域，并保持 $N$ 个时间步长（Time Steps）的**视觉静默（Visual Quiescence）**时，状态机才会触发捕获中断。
+我将视频流视为一个动态的时间序列，只有当帧间差异的 L2 范数收敛至一个极小的 $\epsilon$ 邻域，并保持 $N$ 个时间步长（Time Steps）的**视觉静默**(Visual Quiescence)时，状态机才会触发捕获中断。
 > **(人话：等翻页动画彻底停稳了再动手，保证抓下来的图是高清无重影的，方便后续 OCR 识别文字。)**
 
 #### 3. 感知哈希拓扑去重 (Perceptual Hashing Deduplication)
@@ -145,7 +145,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone [https://github.com/YourName/PPT-Extractor-Pro.git](https://github.com/YourName/PPT-Extractor-Pro.git)
+git clone [https://github.com/liqinglq666/PPT-Extractor-Pro.git](https://github.com/liqinglq666/PPT-Extractor-Pro.git)
 
 # 2. 安装依赖 (反正就这几个)
 pip install opencv-python pillow ttkbootstrap numpy
